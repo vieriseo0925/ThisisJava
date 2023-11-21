@@ -1,0 +1,17 @@
+package ch03.sec09;
+
+public class BitShiftExample2 {
+
+	public static void main(String[] args) {
+		int value = 772; // [00000000] [00000000] [00000011] [00000100]
+		
+		//우측으로 3byte(24bit) 이동하고 끝 1바이트만 읽음: [00000000]
+		byte byte1 = (byte) (value >> 24);
+		int int1 = byte1 & 255; //byte 자료형일 때 원하는 값이 안 나오므로 int형으로 비트연산(and)하여 원하는 값 출력
+		System.out.println("첫번째 바이트 부호 없는 값: " + int1);
+		
+		//우측으로 2byte(16bit) 이동하고 끝 1바이트만 읽음 : [00000000]
+
+	}
+
+}

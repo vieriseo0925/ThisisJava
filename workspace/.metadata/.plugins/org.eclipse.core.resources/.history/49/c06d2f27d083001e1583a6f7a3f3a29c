@@ -1,0 +1,10 @@
+package ch03.sec08;
+
+public class BitLogicExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
