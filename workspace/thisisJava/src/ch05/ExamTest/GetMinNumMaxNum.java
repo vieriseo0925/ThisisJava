@@ -2,7 +2,8 @@ package ch05.ExamTest;
 
 public class GetMinNumMaxNum {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { /* 배열 마지막부터 인덱스 0~4까지 비교하여 맨 뒤 항목의 값보다 작으면 그 값을 최소로 하고, 배열 처음부터
+						인덱스 0~4까지 비교하여 맨 처음 항목의 값보다 크면 그 값을 최대로 하는 코드*/
 		int[] array = {1, 5, 3, 8, 2};
 		int MinNum = array[4];
 		int MaxNum = array[0];
